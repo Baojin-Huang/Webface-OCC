@@ -5,7 +5,9 @@ By Baojin Huang, Zhongyuan Wang, Guangcheng Wang, Kui Jiang,Kangli Zeng, Zhen Ha
 
  **Webface-OCC** is a simulated occlusion face recognition dataset, covering 804,704 face images of 10,575 subjects.
 
-![](C:\Users\12045\Desktop\Webface-OCC\images\data.png)
+<div align=center>
+	<img src="./images/data.png"> 
+</div>
 
 ## Data Download
 
