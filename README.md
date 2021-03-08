@@ -17,12 +17,14 @@ By Baojin Huang, Zhongyuan Wang, Guangcheng Wang, Kui Jiang,Kangli Zeng, Zhen Ha
 
 If you find Webface-OCC useful in your research, please consider to cite the following paper:
 
+```
 @inproceedings{huang2021when,
   title={When Face Recognition Meets Occlusion: A New Benchmark},
   author={Baojin Huang, Zhongyuan Wang, Guangcheng Wang, Kui Jiang, Kangli Zeng, Zhen Han, Xin Tian, Yuhong Yang},
   booktitle={ICASSP},
   year={2021}
 }
+```
 
 ## Contact
 
