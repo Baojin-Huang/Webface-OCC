@@ -31,7 +31,9 @@ pip install mxnet-cu100 # mxnet-cu102
 2. Train deep face recognition models.
 In this part, we assume you are in the directory *`$ROOT/ArcFace_occ`*.
 
+```
 CUDA_VISIBLE_DEVICES='0,1' python -u train.py --network r50 --loss cosface --dataset emore
+```
 
 ## Citation
 
