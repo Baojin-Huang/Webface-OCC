@@ -116,14 +116,14 @@ dataset.emore.dataset = 'emore'
 dataset.emore.dataset_path = '/sd/datasets/faces_web_mask2p_final'
 dataset.emore.num_classes = 10574
 dataset.emore.image_shape = (112, 112, 3)
-dataset.emore.val_targets = ['lfw','cfp_fp', 'agedb_30','rmfrd']
+dataset.emore.val_targets = ['lfw','cfp_fp', 'agedb_30','lfw-masked', 'cfp_fp-masked', 'agedb_30-masked','rmfrd']
 
 dataset.retina = edict()
 dataset.retina.dataset = 'retina'
 dataset.retina.dataset_path = '/datasets/ms1m_mask_rec'
 dataset.retina.num_classes = 93431
 dataset.retina.image_shape = (112, 112, 3)
-dataset.retina.val_targets = ['lfw', 'cfp_fp', 'agedb_30','rmfrd']
+dataset.retina.val_targets = ['lfw', 'cfp_fp', 'agedb_30','lfw-masked', 'cfp_fp-masked', 'agedb_30-masked','rmfrd']
 
 loss = edict()
 loss.softmax = edict()
