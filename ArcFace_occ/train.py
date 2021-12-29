@@ -20,7 +20,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'common'))
 import flops_counter
 import verification
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'symbol'))
-import fresnet52_nonfull2
+import fresnet52
 import fmobilefacenet
 import fmobilenet
 import fmnasnet
@@ -106,7 +106,7 @@ def dice_coef_loss(y_true, y_pred):
     return mx.sym.broadcast_div((2. * intersection + 1.),(mx.sym.broadcast_add(mx.sym.sum(y_true, axis=1), mx.sym.sum(y_pred, axis=1)) + 1.))
 
 def get_symbol(args):
-    embedding,mask_weight = eval(config.net_name+"52"+"_nonfull2").get_symbol()
+    embedding,mask_weight = eval(config.net_name+"52").get_symbol()
     all_label = mx.symbol.Variable('softmax_label')
     mask_label = mx.symbol.Variable('mask_label')
 
