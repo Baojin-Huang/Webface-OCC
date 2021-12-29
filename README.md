@@ -16,7 +16,7 @@ our previous Webface-OCC.
 	<img src="./images/sample_pair.png"> 
 </div>
 
-## Data Download
+## Data & Pretrained Model Download
 
 **Request the download link from** huangbaojin@whu.edu.cn **(academic only)**.
 
@@ -28,7 +28,7 @@ our previous Webface-OCC.
 ```
 pip install mxnet-cu100 # mxnet-cu102
 ```
-2. Train deep face recognition models.
+2. Train occlusion face recognition models.
 In this part, we assume you are in the directory *`$ROOT/ArcFace_occ`*.
 
 ```
