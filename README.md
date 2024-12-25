@@ -48,6 +48,19 @@ If you find Webface-OCC useful in your research, please consider to cite the fol
 }
 ```
 
+```
+@article{huang2022joint,
+  title={Joint segmentation and identification feature learning for occlusion face recognition},
+  author={Huang, Baojin and Wang, Zhongyuan and Jiang, Kui and Zou, Qin and Tian, Xin and Lu, Tao and Han, Zhen},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  volume={34},
+  number={12},
+  pages={10875--10888},
+  year={2022},
+  publisher={IEEE}
+}
+```
+
 ## Contact
 
 huangbaojin@whu.edu.cn
